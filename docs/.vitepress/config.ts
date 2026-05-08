@@ -26,7 +26,7 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: 'AI-Energy', icon: 'book', link: '/docs/' },
+      { text: 'AI-Energy', icon: 'book', link: '/' },
       { text: 'Cs-Basics', link: 'https://huxinyang-web.github.io/ai4edocs-cs-basics/' },
       { text: 'Dev-Tools', link: 'https://huxinyang-web.github.io/ai4edocs-dev-tools/' },
       { text: 'Modeling', link: 'https://huxinyang-web.github.io/ai4edocs-modeling/' },
@@ -39,47 +39,47 @@ export default defineConfig({
           text: 'AI & ML',
           collapsed: false,
           items: [
-            { text: '机器学习基础', link: '/docs/08AIandML/机器学习基础.md' }
+            { text: '机器学习基础', link: '/08AIandML/机器学习基础.md' }
           ]
         },
         {
           text: '能源管理系统',
           collapsed: true,
           items: [
-            { text: 'EMS 简介', link: '/docs/09EMS/EMS 简介.md' }
+            { text: 'EMS 简介', link: '/09EMS/EMS 简介.md' }
           ]
         },
         {
           text: 'IoT & 大数据 & 云',
           collapsed: true,
           items: [
-            { text: '简介', link: '/docs/11IotBigdataCloud/简介.md' },
-            { text: 'IoT 物联网基础', link: '/docs/11IotBigdataCloud/IoT 物联网基础.md' },
-            { text: '大数据技术', link: '/docs/11IotBigdataCloud/大数据技术.md' },
-            { text: '云计算基础', link: '/docs/11IotBigdataCloud/云计算基础.md' },
-            { text: '物联网架构', link: '/docs/11IotBigdataCloud/物联网架构.md' }
+            { text: '简介', link: '/11IotBigdataCloud/简介.md' },
+            { text: 'IoT 物联网基础', link: '/11IotBigdataCloud/IoT 物联网基础.md' },
+            { text: '大数据技术', link: '/11IotBigdataCloud/大数据技术.md' },
+            { text: '云计算基础', link: '/11IotBigdataCloud/云计算基础.md' },
+            { text: '物联网架构', link: '/11IotBigdataCloud/物联网架构.md' }
           ]
         },
         {
           text: 'awesome-carbon-neutrality',
           collapsed: true,
           items: [
-            { text: '简介', link: '/docs/awesome-carbon-neutrality/简介.md' },
-            { text: '太阳能工具', link: '/docs/awesome-carbon-neutrality/太阳能工具.md' },
-            { text: '风能工具', link: '/docs/awesome-carbon-neutrality/风能工具.md' },
-            { text: '储能工具', link: '/docs/awesome-carbon-neutrality/储能工具.md' },
-            { text: '能源预测', link: '/docs/awesome-carbon-neutrality/能源预测.md' },
-            { text: '碳排放计算', link: '/docs/awesome-carbon-neutrality/碳排放计算.md' },
-            { text: '能源可视化', link: '/docs/awesome-carbon-neutrality/能源可视化.md' },
-            { text: '建筑能源模拟', link: '/docs/awesome-carbon-neutrality/建筑能源模拟.md' },
-            { text: '电力系统分析', link: '/docs/awesome-carbon-neutrality/电力系统分析.md' },
-            { text: '微电网设计', link: '/docs/awesome-carbon-neutrality/微电网设计.md' },
-            { text: '能源经济分析', link: '/docs/awesome-carbon-neutrality/能源经济分析.md' },
-            { text: '能源政策工具', link: '/docs/awesome-carbon-neutrality/能源政策工具.md' },
-            { text: '可再生能源认证', link: '/docs/awesome-carbon-neutrality/可再生能源认证.md' },
-            { text: '能源效率评估', link: '/docs/awesome-carbon-neutrality/能源效率评估.md' },
-            { text: '能源数据源', link: '/docs/awesome-carbon-neutrality/能源数据源.md' },
-            { text: '能源 API 服务', link: '/docs/awesome-carbon-neutrality/能源 API 服务.md' }
+            { text: '简介', link: '/awesome-carbon-neutrality/简介.md' },
+            { text: '太阳能工具', link: '/awesome-carbon-neutrality/太阳能工具.md' },
+            { text: '风能工具', link: '/awesome-carbon-neutrality/风能工具.md' },
+            { text: '储能工具', link: '/awesome-carbon-neutrality/储能工具.md' },
+            { text: '能源预测', link: '/awesome-carbon-neutrality/能源预测.md' },
+            { text: '碳排放计算', link: '/awesome-carbon-neutrality/碳排放计算.md' },
+            { text: '能源可视化', link: '/awesome-carbon-neutrality/能源可视化.md' },
+            { text: '建筑能源模拟', link: '/awesome-carbon-neutrality/建筑能源模拟.md' },
+            { text: '电力系统分析', link: '/awesome-carbon-neutrality/电力系统分析.md' },
+            { text: '微电网设计', link: '/awesome-carbon-neutrality/微电网设计.md' },
+            { text: '能源经济分析', link: '/awesome-carbon-neutrality/能源经济分析.md' },
+            { text: '能源政策工具', link: '/awesome-carbon-neutrality/能源政策工具.md' },
+            { text: '可再生能源认证', link: '/awesome-carbon-neutrality/可再生能源认证.md' },
+            { text: '能源效率评估', link: '/awesome-carbon-neutrality/能源效率评估.md' },
+            { text: '能源数据源', link: '/awesome-carbon-neutrality/能源数据源.md' },
+            { text: '能源 API 服务', link: '/awesome-carbon-neutrality/能源 API 服务.md' }
           ]
         }
       ]
