@@ -34,7 +34,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/docs/': [
+      '/': [
         {
           text: 'AI & ML',
           collapsed: false,

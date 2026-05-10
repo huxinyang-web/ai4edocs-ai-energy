@@ -1,27 +1,26 @@
 ---
-layout: home
 title: Ai4Energy Docs
 titleTemplate: AI & Energy Applications
-
-hero:
-  name: Ai4Energy
-  text: AI & Energy Applications
-  tagline: 人工智能与能源应用
-  actions:
-    - theme: brand
-      text: 开始学习
-      link: /docs/
-    - theme: alt
-      text: 其他文档仓库
-      link: https://huxinyang-web.github.io/ai4edocs-cs-basics/
-
-features:
-  - title: AI & ML
-    details: 机器学习基础
-  - title: 能源管理系统
-    details: EMS 能源管理系统
-  - title: IoT & 大数据 & 云
-    details: 物联网、大数据、云计算技术
-  - title: 碳中和工具
-    details: 可再生能源工具汇编
 ---
+
+# AI 与能源应用
+
+欢迎来到 AI 与能源应用课程。本课程涵盖人工智能在能源领域的应用，包括物联网、大数据、云计算、机器学习以及碳中和开源工具链和能源管理系统。
+
+## 课程内容
+
+### AI & ML
+机器学习基础概念与算法入门。
+
+### 能源管理系统
+EMS 能源管理系统简介与架构。
+
+### IoT & 大数据 & 云
+物联网基础、大数据技术、云计算基础、物联网架构设计。
+
+### 碳中和工具
+太阳能工具、风能工具、储能工具、能源预测、碳排放计算、能源可视化、建筑能源模拟、电力系统分析、微电网设计、能源经济分析、能源政策工具、可再生能源认证、能源效率评估、能源数据源与 API 服务。
+
+## 开始学习
+
+请使用左侧边栏导航，选择具体章节开始学习。
