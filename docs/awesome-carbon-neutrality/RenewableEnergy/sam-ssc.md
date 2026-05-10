@@ -1,9 +1,6 @@
-@def title = "System Advisor Model(SAM)及ssc"
-@def hascode = true
-@def date = Date(2021, 11, 19)
-@def rss = "System Advisor Model(SAM)及ssc"
-@def tags = ["SAM", "solar energy", "ssc"]
-
+---
+title: System Advisor Model(SAM)及ssc
+---
 
 - [System Advisor Model](https://github.com/NREL/SAM)
 

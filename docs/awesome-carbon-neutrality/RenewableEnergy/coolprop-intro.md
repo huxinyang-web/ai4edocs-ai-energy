@@ -1,5 +1,6 @@
-@def title = "CoolProp"
-@def tags = ["CoolProp"]
+---
+title: CoolProp
+---
 
 # 从热力学图表说起
 
