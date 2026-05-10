@@ -39,47 +39,46 @@ export default defineConfig({
           text: 'AI & ML',
           collapsed: false,
           items: [
-            { text: '机器学习基础', link: '/08AIandML/机器学习基础.md' }
+            { text: '机器学习和人工智能', link: '/08AIandML/1-机器学习和人工智能.md' }
           ]
         },
         {
           text: '能源管理系统',
           collapsed: true,
           items: [
-            { text: 'EMS 简介', link: '/09EMS/EMS 简介.md' }
+            { text: '能源管理信息系统', link: '/09EMS/1-能源管理信息系统.md' }
           ]
         },
         {
           text: 'IoT & 大数据 & 云',
           collapsed: true,
           items: [
-            { text: '简介', link: '/11IotBigdataCloud/简介.md' },
-            { text: 'IoT 物联网基础', link: '/11IotBigdataCloud/IoT 物联网基础.md' },
-            { text: '大数据技术', link: '/11IotBigdataCloud/大数据技术.md' },
-            { text: '云计算基础', link: '/11IotBigdataCloud/云计算基础.md' },
-            { text: '物联网架构', link: '/11IotBigdataCloud/物联网架构.md' }
+            { text: '物联网', link: '/11IotBigdataCloud/1-物联网.md' },
+            { text: '消息件', link: '/11IotBigdataCloud/2-消息件.md' },
+            { text: '大数据简介', link: '/11IotBigdataCloud/3-大数据简介.md' },
+            { text: '从虚拟机到云计算', link: '/11IotBigdataCloud/4-从虚拟机到云计算.md' },
+            { text: '容器化和k8s', link: '/11IotBigdataCloud/5-容器化和k8s.md' }
           ]
         },
         {
-          text: 'awesome-carbon-neutrality',
+          text: '碳中和工具',
           collapsed: true,
           items: [
-            { text: '简介', link: '/awesome-carbon-neutrality/简介.md' },
-            { text: '太阳能工具', link: '/awesome-carbon-neutrality/太阳能工具.md' },
-            { text: '风能工具', link: '/awesome-carbon-neutrality/风能工具.md' },
-            { text: '储能工具', link: '/awesome-carbon-neutrality/储能工具.md' },
-            { text: '能源预测', link: '/awesome-carbon-neutrality/能源预测.md' },
-            { text: '碳排放计算', link: '/awesome-carbon-neutrality/碳排放计算.md' },
-            { text: '能源可视化', link: '/awesome-carbon-neutrality/能源可视化.md' },
-            { text: '建筑能源模拟', link: '/awesome-carbon-neutrality/建筑能源模拟.md' },
-            { text: '电力系统分析', link: '/awesome-carbon-neutrality/电力系统分析.md' },
-            { text: '微电网设计', link: '/awesome-carbon-neutrality/微电网设计.md' },
-            { text: '能源经济分析', link: '/awesome-carbon-neutrality/能源经济分析.md' },
-            { text: '能源政策工具', link: '/awesome-carbon-neutrality/能源政策工具.md' },
-            { text: '可再生能源认证', link: '/awesome-carbon-neutrality/可再生能源认证.md' },
-            { text: '能源效率评估', link: '/awesome-carbon-neutrality/能源效率评估.md' },
-            { text: '能源数据源', link: '/awesome-carbon-neutrality/能源数据源.md' },
-            { text: '能源 API 服务', link: '/awesome-carbon-neutrality/能源 API 服务.md' }
+            { text: 'SAM', link: '/awesome-carbon-neutrality/RenewableEnergy/1-SAM.md' },
+            { text: 'PLANHEATTool', link: '/awesome-carbon-neutrality/RenewableEnergy/10-PLANHEATTool.md' },
+            { text: 'ModelicaBuildingslibrary', link: '/awesome-carbon-neutrality/RenewableEnergy/11-ModelicaBuildingslibrary.md' },
+            { text: 'IDEAS', link: '/awesome-carbon-neutrality/RenewableEnergy/12-IDEAS.md' },
+            { text: 'OpenMDAO', link: '/awesome-carbon-neutrality/RenewableEnergy/13-OpenMDAO.md' },
+            { text: 'ReOpt', link: '/awesome-carbon-neutrality/RenewableEnergy/2-ReOpt.md' },
+            { text: 'pvlib-python', link: '/awesome-carbon-neutrality/RenewableEnergy/3-pvlib-python.md' },
+            { text: 'SolarPILOT', link: '/awesome-carbon-neutrality/RenewableEnergy/4-SolarPILOT.md' },
+            { text: 'SolarTherm', link: '/awesome-carbon-neutrality/RenewableEnergy/5-SolarTherm.md' },
+            { text: 'SolTrace', link: '/awesome-carbon-neutrality/RenewableEnergy/6-SolTrace.md' },
+            { text: 'OpenFAST', link: '/awesome-carbon-neutrality/RenewableEnergy/7-OpenFAST.md' },
+            { text: 'OpenLCA', link: '/awesome-carbon-neutrality/RenewableEnergy/8-OpenLCA.md' },
+            { text: 'FOQUS', link: '/awesome-carbon-neutrality/RenewableEnergy/9-FOQUS.md' },
+            { text: 'coolprop-intro', link: '/awesome-carbon-neutrality/RenewableEnergy/coolprop-intro.md' },
+            { text: 'sam-ssc', link: '/awesome-carbon-neutrality/RenewableEnergy/sam-ssc.md' }
           ]
         }
       ]
